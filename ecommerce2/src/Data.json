@@ -1,0 +1,14 @@
+[
+  { "deckSize": 8.5,"img":"./img/deck1.jpeg", "brand": "Carhartt", "price": 99.99, "isNew": true },
+  { "deckSize": 8.0,"img":"./img/deck2.jpeg", "brand": "Girl", "price": 55, "isNew": true },
+  { "deckSize": 8, "brand": "Toy Machine", "price": 45, "isNew": false },
+  { "deckSize": 8, "brand": "Enjoi", "price": 60, "isNew": false },
+  { "deckSize": 9.5, "brand": "Element", "price": 59.99, "isNew": false },
+  { "deckSize": 7.5, "brand": "Krooked", "price": 60, "isNew": false },
+  { "deckSize": 9.5, "brand": "Real", "price": 40, "isNew": true },
+  { "deckSize": 9, "brand": "Baker", "price": 50, "isNew": true },
+  { "deckSize": 8, "brand": "Baker", "price": 55.99, "isNew": false },
+  { "deckSize": 8.5, "brand": "Quasi", "price": 60, "isNew": true },
+  { "deckSize": 8.5, "brand": "Baker", "price": 55, "isNew": false },
+  { "deckSize": 7.5, "brand": "Krooked", "price": 40, "isNew": false }
+]

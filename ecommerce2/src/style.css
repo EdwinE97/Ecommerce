@@ -81,7 +81,7 @@ padding:10px;
   
   
   .slide:nth-child(1) {
-    background-image: url("img/Slappy.jpeg");
+    background-image: url("./public/img/Slappy.jpeg");
    background-repeat: no-repeat;
    background-size:cover;
   
