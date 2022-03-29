@@ -1,51 +1,92 @@
 import React from "react";
-import Nav from './Nav'
+import Nav from "./Nav";
 import Footer from "./Footer";
-import '../index.css'
+import "../index.css";
 //import 'ecommerce2/src/index.css'
 
+function validateForm() {
+  let x = document.forms['fcf-form-id']['Name', 'Email', 'Message'].value;
+  if (x == ""){
+    alert("Name must be filled out");
+    return false;
+  }
+}
 const Contact = () => {
-    return(
-            <>
-            <Nav />
-        <section className="fcf-body">
-
+  return (
+    
+    <>
+     
+      <Nav />
+      <section className="fcf-body">
         <div id="fcf-form"> </div>
         <h3 className="fcf-h3">Contact us</h3>
 
-        <form id="fcf-form-id" className="fcf-form-className" method="post" action="contact-form-process.php">
-
-            <div className="fcf-form-group">
-                <label for="Name" className="fcf-label">Your name</label>
-                <div className="fcf-input-group">
-                    <input type="text" id="Name" name="Name" className="fcf-form-control" required/>
-                </div>
+        <form
+          id="fcf-form-id"
+          className="fcf-form-className"
+          method="post"
+          onsubmit = 'return (validateForm());'
+          action="contact-form-process.php"
+        >
+          <div className="fcf-form-group">
+            <label for="Name" className="fcf-label">
+              Your name
+            </label>
+            <div className="fcf-input-group">
+              <input
+                type="text"
+                id="Name"
+                name="Name"
+                className="fcf-form-control"
+                required
+              />
             </div>
+          </div>
 
-            <div className="fcf-form-group">
-                <label for="Email" className="fcf-label">Your email address</label>
-                <div className="fcf-input-group">
-                    <input type="email" id="Email" name="Email" className="fcf-form-control" required/>
-                </div>
+          <div className="fcf-form-group">
+            <label for="Email" className="fcf-label">
+              Your email address
+            </label>
+            <div className="fcf-input-group">
+              <input
+                type="email"
+                id="Email"
+                name="Email"
+                className="fcf-form-control"
+                required
+              />
             </div>
+          </div>
 
-            <div className="fcf-form-group">
-                <label for="Message" className="fcf-label">Your message</label>
-                <div className="fcf-input-group">
-                    <textarea id="Message" name="Message" className="fcf-form-control" rows="6" maxlength="3000"
-                        required></textarea>
-                </div>
+          <div className="fcf-form-group">
+            <label for="Message" className="fcf-label">
+              Your message
+            </label>
+            <div className="fcf-input-group">
+              <textarea
+                id="Message"
+                name="Message"
+                className="fcf-form-control"
+                rows="6"
+                maxlength="3000"
+                required
+              ></textarea>
             </div>
+          </div>
 
-            <div className="fcf-form-group">
-                <button type="submit" id="fcf-button" className="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send
-                    Message</button>
-            </div>
-           
+          <div className="fcf-form-group">
+            <button
+              type="submit"
+              id="fcf-button"
+              className="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block"
+            >
+              Send Message
+            </button>
+          </div>
         </form>
-        </section>
-        <Footer />
-        </>
-    )
-    }
-    export default Contact;
+      </section>
+      <Footer />
+    </>
+  );
+};
+export default Contact;

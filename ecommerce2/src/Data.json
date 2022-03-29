@@ -1,14 +1,14 @@
 [
-  { "deckSize": 8.5,"img":"./img/deck1.jpeg", "brand": "Carhartt", "price": 99.99, "isNew": true },
-  { "deckSize": 8.0,"img":"./img/deck2.jpeg", "brand": "Girl", "price": 55, "isNew": true },
-  { "deckSize": 8, "brand": "Toy Machine", "price": 45, "isNew": false },
-  { "deckSize": 8, "brand": "Enjoi", "price": 60, "isNew": false },
-  { "deckSize": 9.5, "brand": "Element", "price": 59.99, "isNew": false },
-  { "deckSize": 7.5, "brand": "Krooked", "price": 60, "isNew": false },
-  { "deckSize": 9.5, "brand": "Real", "price": 40, "isNew": true },
-  { "deckSize": 9, "brand": "Baker", "price": 50, "isNew": true },
-  { "deckSize": 8, "brand": "Baker", "price": 55.99, "isNew": false },
-  { "deckSize": 8.5, "brand": "Quasi", "price": 60, "isNew": true },
-  { "deckSize": 8.5, "brand": "Baker", "price": 55, "isNew": false },
-  { "deckSize": 7.5, "brand": "Krooked", "price": 40, "isNew": false }
+  { "deckSize": 8.5,"img":"/img/deck1.jpeg", "brand": "Carhartt", "price": 99.99, "isNew": true, "banner": "New!"},
+  { "deckSize": 8.0,"img":"/img/deck2.jpeg", "brand": "Girl", "price": 55, "isNew": true,"banner": "New!" },
+  { "deckSize": 8,"img":"/img/deck3.jpeg", "brand": "Toy ", "price": 45, "isNew": false, "banner": "" },
+  { "deckSize": 8,"img":"/img/deck4.jpeg", "brand": "Enjoi", "price": 60, "isNew": false, "banner": "" },
+  { "deckSize": 9.5,"img":"/img/deck5.jpeg", "brand": "Element", "price": 59.99, "isNew": false, "banner": "" },
+  { "deckSize": 7.5,"img":"/img/deck6.jpeg", "brand": "Krooked", "price": 60, "isNew": false, "banner": "" },
+  { "deckSize": 9.5,"img":"/img/deck7.jpeg", "brand": "Real", "price": 40, "isNew": true, "banner": "New!" },
+  { "deckSize": 9,"img":"/img/deck8.jpeg", "brand": "Baker", "price": 50, "isNew": true, "banner": "New!" },
+  { "deckSize": 8, "img":"/img/deck9.jpeg","brand": "Baker", "price": 55.99, "isNew": false,"banner": "" },
+  { "deckSize": 8.5,"img":"/img/deck10.jpeg", "brand": "Quasi", "price": 60, "isNew": true, "banner": "New!" },
+  { "deckSize": 8.5,"img":"/img/deck11.jpeg", "brand": "Baker", "price": 55, "isNew": false, "banner": "" },
+  { "deckSize": 7.5,"img":"/img/deck12.jpeg", "brand": "Krooked", "price": 40, "isNew": false, "banner": "" }
 ]

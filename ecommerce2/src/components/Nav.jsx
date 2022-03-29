@@ -1,28 +1,30 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
-import '../index.css'
+import "../index.css";
 
 const Nav = () => {
-    return(
-        <>
-        <h1 className="site"> Slappy's</h1>
+  return (
+    <>
+      <h1 className="site"> Slappy's</h1>
 
-    <header>
-
+      <header>
         <nav>
-            <ul>
-                
-                <li><a href="/">Home</a></li>
-                <li><a href="/Products">Products</a></li>
-                <li><a href="/Contact">Contact</a></li>
-            </ul>
-
+          <ul>
+            <li>
+              <a href="/">Home</a>
+            </li>
+            <li>
+              <a href="/Products">Products</a>
+            </li>
+            <li>
+              <a href="/Contact">Contact</a>
+            </li>
+          </ul>
         </nav>
         <Outlet></Outlet>
-    </header>
-    
+      </header>
     </>
-    )
-}
+  );
+};
 
 export default Nav;
