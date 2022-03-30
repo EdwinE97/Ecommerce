@@ -12,7 +12,7 @@ const Footer = () => {
       <footer id="footer">
         <div class="footer-text">
           <div class="copyright">
-            <p>&copy; Don't worry. Do slappy's!!</p>
+            <p>&copy; Don't worry. Do slappy's!</p>
           </div>
           <br />
           <div class="footer-links">

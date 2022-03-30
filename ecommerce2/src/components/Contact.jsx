@@ -4,13 +4,8 @@ import Footer from "./Footer";
 import "../index.css";
 //import 'ecommerce2/src/index.css'
 
-function validateForm() {
-  let x = document.forms['fcf-form-id']['Name', 'Email', 'Message'].value;
-  if (x == ""){
-    alert("Name must be filled out");
-    return false;
-  }
-}
+
+
 const Contact = () => {
   return (
     
